@@ -1,0 +1,22 @@
+{
+  "name": "htmlJsScss",
+  "version": "1.0.0",
+  "description": "Webpack template for html sites, compiles .css from .scss-file, and .js file.",
+  "main": "src/js/main.js",
+  "scripts": {
+    "build": "webpack",
+    "start": "webpack",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Tuomas Vuollo",
+  "license": "ISC",
+  "devDependencies": {
+    "css-loader": "^3.2.0",
+    "mini-css-extract-plugin": "^0.8.0",
+    "node-sass": "^4.12.0",
+    "sass-loader": "^8.0.0",
+    "webpack": "^4.41.0",
+    "webpack-cli": "^3.3.9"
+  }
+}
